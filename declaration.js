@@ -36,3 +36,17 @@ yazdirParametre(12.4, true);
 yazdirParametre("Hallo");
 yazdirParametre("Ehlen");
 yazdirParametre();
+
+//* ORNEK3:
+//******************************************/
+console.log(new Date()); //? Sistem tarihi ve saatini verir.
+
+function calculate(name, yob) {
+  const age = new Date().getFullYear() - yob;
+  // console.log(`${name} is ${age} years old`)
+  return age;
+}
+
+console.log(calculate("Ahmet", 1990));
+const ismetAge = calculate("İsmet", 1890);
+console.log("Ismet's Age:", ismetAge);
