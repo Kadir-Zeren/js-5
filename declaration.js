@@ -50,3 +50,22 @@ function calculate(name, yob) {
 console.log(calculate("Ahmet", 1990));
 const ismetAge = calculate("İsmet", 1890);
 console.log("Ismet's Age:", ismetAge);
+
+//* ORNEK4:
+//******************************************/
+
+function add(num1, num2) {
+  const sum = num1 + num2;
+  return sum;
+}
+
+function addShort(num1, num2) {
+  return (num1 + num2) / (num1 * num2);
+}
+
+const result1 = add(3, 5);
+const result2 = add(5, 9);
+const result3 = addShort(5, 9);
+
+console.log(result1, result2);
+console.log(result3);
